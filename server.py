@@ -16,7 +16,6 @@ serverSocket.bind((host, port)) #Host will be replaced/substitued with IP. if ch
 serverSocket.listen(3)
 
 while True:
-    
     #Starting the connection
     clientScoket, adress = serverSocket.accept()
 
