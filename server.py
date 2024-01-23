@@ -16,8 +16,7 @@ serverSocket.bind((host, port)) #Host will be replaced/substitued with IP. if ch
 serverSocket.listen(3)
 
 while True:
-    
-    #Starting the connection
+    #Starting connection
     clientScoket, adress = serverSocket.accept()
 
     print("Received conncetion from " % str(adress))
