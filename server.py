@@ -6,6 +6,7 @@ serverSocket = socket.socket(
     socket.SOCK_STREAM
 )
 
+#host = '172.20.10.3'
 host = socket.gethostbyname()
 port = 3000
 
