@@ -41,3 +41,4 @@ elif resp == '3':
     print("Open Ports: ", scanner[ip_addr]['tcp'].keys())
 elif resp >= '4':
     print("Please enter valid value")
+    # [empty]
